@@ -2291,9 +2291,9 @@ def interview1v(resume_id):
 def send_email(candidate_name, candidate_email, cc_emails):
     """Send an email using EmailJS API when a candidate moves to Interview 2."""
     try:
-        EMAILJS_SERVICE_ID = "service_qghdq8f"
-        EMAILJS_TEMPLATE_ID = "template_1jyba8e"
-        EMAILJS_PUBLIC_KEY = "Y-IUMgYHei_SzaQci"
+        EMAILJS_SERVICE_ID = "your_id"
+        EMAILJS_TEMPLATE_ID = "your_id"
+        EMAILJS_PUBLIC_KEY = "your_id"
 
         email_data = {
             "service_id": EMAILJS_SERVICE_ID,
